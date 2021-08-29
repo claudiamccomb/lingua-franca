@@ -1,0 +1,12 @@
+@import url('/src/App.css');
+.button{
+cursor: pointer;
+padding: 0.1vh 2vw;
+background-color: transparent;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 10px;
+color: white;
+height: fit-content;
+margin: 0 3vw;
+}

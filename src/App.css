@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+:root {
+  --peach: #f8b195;
+  --lightpink: #ee91ab;
+  --brightpink: #f67280;
+  --darkerpink: #c06c84;
+  --purple: #6c5b7b;
+  --blue: #355c7d;
+  --white: #ffffff;
+  --fontWeight-normal: 400;
+  --fontWeight-semibold: 600;
+  --fontWeight-bold: 700;
+  --fontsize18: 1.125rem;
+  --fontsize20: 1.25rem;
+  --fontsize24: 1.5rem;
+  --fontsize30: 1.875rem;
+  --fontsize32: 2rem;
+  --fontsize36: 2.25rem;
+  --fontsize40: 2.5rem;
+  --fontsize48: 3rem;
+  --fontFamily-montserrat: "Montserrat", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --fontFamily-roboto: "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontFamily-montserrat);
+}
+h1 {
+  font-weight: var(--fontWeight-bold);
+  font-size: var(fontsize48);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fontWeight-semibold);
+}
+h2 {
+  font-size: var(--fontsize40);
+}
+h3 {
+  font-size: var(--fontsize36);
+}
+h4 {
+  font-size: var(--fontsize30);
+}
+h5 {
+  font-size: var(--fontsize24);
+}
+h6 {
+  font-size: var(--fontsize20);
+}
+p {
+  font-family: var(--fontFamily-roboto);
+  font-size: var(--fontsize20);
+  font-weight: var(--fontWeight-normal);
+}
+
+.landing-upper {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15vh;
+}
+
+.landing-lower {
+  background-image: url("/src/static/landing-rectangle.png");
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-card {
+  background-image: url("/src/static/aboutcard.png");
+  width: 30vw;
+  height: 30vh;
+  margin: 5vh 3vw;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
